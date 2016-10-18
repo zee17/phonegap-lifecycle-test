@@ -10,11 +10,11 @@ var key5 = "Game";
 var value5 = "Loss";
 
     function onLoad() {
-        window.alert(window.localStorage.setItem( key1, value1 ));
-        window.alert(window.localStorage.setItem( key2, value2));
-        window.alert(window.localStorage.setItem( key3, value3 ));
-        window.alert(window.localStorage.setItem( key4, value4 ));
-        window.alert(window.localStorage.setItem( key5, value5 ));
+        window.alert(key1, value1 );
+        window.alert(key2, value2));
+        window.alert(key3, value3 );
+        window.alert(key4, value4 );
+        window.alert(key5, value5 );
     }
     
 	
