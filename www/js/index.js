@@ -1,21 +1,21 @@
 var key1 = "pen";
-var value = "blue";
+var value1 = "blue";
 var key2 = "Money";
-var value = "Wallet";
+var value2 = "Wallet";
 var key3 = "Drive";
-var value = "Car";
+var value3 = "Car";
 var key4 = "Win";
-var value = "Play";
+var value4 = "Play";
 var key5 = "Game";
-var value = "Loss";
-var value = window.localStorage.getItem(key);
+var value5 = "Loss";
 
     function onLoad() {
-        window.localStorage.setItem( key, value );
+        window.alert(window.localStorage.setItem( key1, value1 ));
+        window.alert(window.localStorage.setItem( key2, value2));
+        window.alert(window.localStorage.setItem( key3, value3 ));
+        window.alert(window.localStorage.setItem( key4, value4 ));
+        window.alert(window.localStorage.setItem( key5, value5 ));
     }
     
-    function Display(){
-        alert("hello my friends");
-    }
 	
 	
